@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F8F8F8;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+nav img{
+    margin-left: 20px;
+}
+.ul{
+    display: flex;
+    margin-left: 10px;
+}
+.ul li{
+    list-style: none;
+    font-weight: 900;
+    font-size: 16px;
+    margin-left: 16px;
+    font-family: 'Source Sans Pro';
+}
+select{
+    border: none;
+}
+nav button{
+    height: 40px;
+    width: 100px;
+    background-color: unset;
+    border-radius: 4px;
+    border: 2px solid #067A46;
+    color: #067A46;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 28%;
+}
+.main{
+    background: url(img/div.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.blok1 h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.blok1 .icon1{
+    display: flex;
+    margin-top: 50px;
+}
+.icon1 .part1{
+    text-align: center;
+    margin-left: 100px;
+}
+.icon1 .part1 h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.icon1 .part1 h3{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #242424;
+}
+.blok2{
+    margin-top: 70px;
+    display: flex;
+}
+.blok2 .part1{
+    margin-left: 100px;
+}
+.blok2 .part2 h1{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 150px;
+}
+.blok2 .part2 .tex{
+    margin-left: 110px;
+}
+.blok2 .part2 .tex h2{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #242424;
+}
+a{
+    color: #067A46;
+}
+.blok2 button{
+    width: 457.5px;
+    height: 48px;
+    margin-left: 110px;
+    background-color: #067A46;
+    color: white;
+    border: none;
+    margin-top: 50px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.blak{
+    text-align: center;
+    margin-top: 50px;
+}
+.blak h1{
+    font-size: 31px;
+    color: #242424;
+}
+.blak h2{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #242424;
+}
+.blok3{
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.blok3 img{
+    margin-left: 10px;
+}
+.blok3 .but{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.blok3 button{
+    width: 157.25px;
+    height: 48px;
+    background-color: unset;
+    border: 2px solid #067A46;
+    color: #067A46;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.blak1 h1{
+    font-size: 31px;
+    margin-top: 50px;
+    text-align: center;
+    color: #242424;
+}
+.blak1 h2{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    color: #242424;
+}
+.blok4{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 50px;
+}
+.blok4 .part1{
+    text-align: center;
+    margin-left: 35px;
+}
+.blok4 .part1 h1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 32px;
+    color: #242424;
+}
+.blok4 .part1 h2{
+    font-size: 16px;
+    color: #242424;
+    font-weight: 400;
+    line-height: 24px;
+}
+.rasm1{
+    margin-top: 50px;
+}
+.rasm1 img{
+    width: 100%;
+}
+.blak2{
+    text-align: center;
+    font-size: 37px;
+    margin-top: 50px;
+    color: #242424;
+}
+.blok5{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.blok5 .part1{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.blok5 .part1 h1{
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #242424;
+}
+.blok5 .part1 ion-icon{
+    width: 50px;
+    height: 50px;
+    color: #242424;
+}
+.foter{
+    background: white;
+    display: flex;
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 46%;
+    padding-left: 50px;
+}
+.foter .part1 h1{
+    font-size: 16px;
+}
+.foter .part1 h2{
+    font-size: 14px;
+    color: #067A46;
+    margin-top: 10px;
+}
+.foter .part1{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.foter1{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 3px;
+}
+.foter1 h1{
+    font-size: 14px;
+    margin-left: 70px;
+}
+.foter1 h2{
+    font-size: 14px;
+    margin-left: 30px;
+    color: #067A46;
+}
+.foter1 ion-icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+.face{
+    color: blue;
+}
+.twit{
+    color: rgb(0, 145, 255);
+}
+.ins{
+    color: rgb(243, 77, 105);
+}
+.icon{
+    margin-left: 35%;
+}
+hr{
+    color: #242424;
+}
